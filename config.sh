@@ -5,3 +5,6 @@ qmk compile -c -kb crkbd/rev1 -km manna-harbour_miryoku \
 	-e MIRYOKU_TAP=QWERTY \
 	-e MIRYOKU_NAV=VI \
 	-e MIRYOKU_CLIPBOARD=WIN
+
+
+qmk flash -kb crkbd/rev1 -km manna-harbour_miryoku
